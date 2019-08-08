@@ -1,0 +1,11 @@
+C:\Users\edwar\source\repos\GameTracker\GameTracker\bin\Debug\GameTracker.exe.config
+C:\Users\edwar\source\repos\GameTracker\GameTracker\bin\Debug\GameTracker.exe
+C:\Users\edwar\source\repos\GameTracker\GameTracker\bin\Debug\GameTracker.pdb
+C:\Users\edwar\source\repos\GameTracker\GameTracker\obj\Debug\GameTracker.csprojAssemblyReference.cache
+C:\Users\edwar\source\repos\GameTracker\GameTracker\obj\Debug\GameTracker.Properties.Resources.resources
+C:\Users\edwar\source\repos\GameTracker\GameTracker\obj\Debug\GameTracker.csproj.GenerateResource.cache
+C:\Users\edwar\source\repos\GameTracker\GameTracker\obj\Debug\GameTracker.csproj.CoreCompileInputs.cache
+C:\Users\edwar\source\repos\GameTracker\GameTracker\obj\Debug\GameTracker.exe
+C:\Users\edwar\source\repos\GameTracker\GameTracker\obj\Debug\GameTracker.pdb
+C:\Users\edwar\source\repos\GameTracker\GameTracker\obj\Debug\GameTracker.TimerInterface.resources
+C:\Users\edwar\source\repos\GameTracker\GameTracker\obj\Debug\GameTracker.MainMenu.resources
