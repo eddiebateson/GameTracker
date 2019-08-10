@@ -48,6 +48,7 @@ namespace GameTracker
                 if (m% creditIncrementEvery == 0 && s==0 && h==0)
                 {
                     credits += 1;
+                    textCreditCounter.Text = string.Format("{0}", credits.ToString().PadLeft(2,'0'));
                 }
             }));
         }
@@ -58,6 +59,16 @@ namespace GameTracker
         }
 
         private void TextResult_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextCreditCounter_TextChanged(object sender, EventArgs e)
         {
 
         }
