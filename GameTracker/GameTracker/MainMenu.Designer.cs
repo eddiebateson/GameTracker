@@ -30,11 +30,12 @@
         {
             this.btnWork = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.btnPlay = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnWork
             // 
-            this.btnWork.Location = new System.Drawing.Point(50, 31);
+            this.btnWork.Location = new System.Drawing.Point(56, 29);
             this.btnWork.Name = "btnWork";
             this.btnWork.Size = new System.Drawing.Size(75, 23);
             this.btnWork.TabIndex = 0;
@@ -44,7 +45,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(50, 71);
+            this.btnExit.Location = new System.Drawing.Point(56, 87);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 1;
@@ -52,11 +53,21 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
+            // btnPlay
+            // 
+            this.btnPlay.Location = new System.Drawing.Point(56, 58);
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.Size = new System.Drawing.Size(75, 23);
+            this.btnPlay.TabIndex = 2;
+            this.btnPlay.Text = "PlayTimer";
+            this.btnPlay.UseVisualStyleBackColor = true;
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(177, 145);
+            this.ClientSize = new System.Drawing.Size(188, 145);
+            this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnWork);
             this.Name = "MainMenu";
@@ -70,5 +81,6 @@
 
         private System.Windows.Forms.Button btnWork;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnPlay;
     }
 }

@@ -20,3 +20,14 @@ C:\Users\edwar\Documents\GitProjects\GameTracker\GameTracker\GameTracker\obj\Deb
 C:\Users\edwar\Documents\GitProjects\GameTracker\GameTracker\GameTracker\obj\Debug\GameTracker.csproj.CoreCompileInputs.cache
 C:\Users\edwar\Documents\GitProjects\GameTracker\GameTracker\GameTracker\obj\Debug\GameTracker.exe
 C:\Users\edwar\Documents\GitProjects\GameTracker\GameTracker\GameTracker\obj\Debug\GameTracker.pdb
+D:\gitProjects\GameTracker\GameTracker\GameTracker\bin\Debug\GameTracker.exe.config
+D:\gitProjects\GameTracker\GameTracker\GameTracker\bin\Debug\GameTracker.exe
+D:\gitProjects\GameTracker\GameTracker\GameTracker\bin\Debug\GameTracker.pdb
+D:\gitProjects\GameTracker\GameTracker\GameTracker\obj\Debug\GameTracker.csprojAssemblyReference.cache
+D:\gitProjects\GameTracker\GameTracker\GameTracker\obj\Debug\GameTracker.MainMenu.resources
+D:\gitProjects\GameTracker\GameTracker\GameTracker\obj\Debug\GameTracker.TimerInterface.resources
+D:\gitProjects\GameTracker\GameTracker\GameTracker\obj\Debug\GameTracker.Properties.Resources.resources
+D:\gitProjects\GameTracker\GameTracker\GameTracker\obj\Debug\GameTracker.csproj.GenerateResource.cache
+D:\gitProjects\GameTracker\GameTracker\GameTracker\obj\Debug\GameTracker.csproj.CoreCompileInputs.cache
+D:\gitProjects\GameTracker\GameTracker\GameTracker\obj\Debug\GameTracker.exe
+D:\gitProjects\GameTracker\GameTracker\GameTracker\obj\Debug\GameTracker.pdb
