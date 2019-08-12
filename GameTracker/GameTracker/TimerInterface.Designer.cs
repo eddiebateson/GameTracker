@@ -74,6 +74,8 @@
             this.textCreditCounter.Size = new System.Drawing.Size(26, 26);
             this.textCreditCounter.TabIndex = 3;
             this.textCreditCounter.Text = "00";
+            this.textCreditCounter.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textCreditCounter.UseWaitCursor = true;
             this.textCreditCounter.TextChanged += new System.EventHandler(this.TextCreditCounter_TextChanged);
             // 
             // lblCredits
