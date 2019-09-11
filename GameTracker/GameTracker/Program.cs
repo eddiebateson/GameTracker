@@ -18,6 +18,7 @@ namespace GameTracker
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainMenu());
             //Application.Run(new TimerInterface());
+
         }
     }
 }

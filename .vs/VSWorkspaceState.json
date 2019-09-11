@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\GameTracker"
+    "\\GameTracker",
+    "\\GameTracker\\GameTracker"
   ],
-  "SelectedNode": "\\GameTracker\\GameTracker.sln",
+  "SelectedNode": "\\GameTracker\\GameTracker\\TimerInterface.cs",
   "PreviewInSolutionExplorer": false
 }

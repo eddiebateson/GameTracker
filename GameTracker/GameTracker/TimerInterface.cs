@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 using System.Windows.Forms;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
 
 namespace GameTracker
 {
@@ -15,17 +18,26 @@ namespace GameTracker
     {
         System.Timers.Timer t;
         int h, m, s;
-        int credits =0;
+        int credits;
         int creditIncrementEvery = 3;
 
         public TimerInterface()
         {
+            using (StreamReader sr = new StreamReader("D:/gitProjects/GameTracker/credits.txt"))
+            {
+                credits = Int32.Parse(sr.ReadLine());
+            }
             InitializeComponent();
         }
         private void TimerInterface_Load(object sender, EventArgs e)
         {
+            //using (StreamReader sr = new StreamReader("D:/gitProjects/GameTracker/credits.txt"))
+            //{
+            //    credits = Int32.Parse(sr.ReadLine());
+            //}
+
             t = new System.Timers.Timer();
-            t.Interval = 10; //msecs per second I believe...
+            t.Interval = 5; //msecs per second I believe...
             t.Elapsed += OnTimeEvent;
         }
 
@@ -48,7 +60,11 @@ namespace GameTracker
                 if (m% creditIncrementEvery == 0 && s==0 && h==0)
                 {
                     credits += 1;
-                    textCreditCounter.Text = string.Format("{0}", credits.ToString().PadLeft(2,'0'));
+                    using (StreamWriter sw = new StreamWriter("D:/gitProjects/GameTracker/credits.txt", false))
+                    {
+                        sw.Write(credits);
+                    }
+                    textCreditCounter.Text = string.Format("{0}", credits.ToString().PadLeft(2,'0'));                    
                 }
             }));
         }
@@ -79,9 +95,10 @@ namespace GameTracker
         }
 
         private void TimerInterface_FormClosing(object sender, FormClosingEventArgs e)
-        {
+        {            
             t.Stop();
             Application.DoEvents();
+            Application.Exit();
         }
     }
 }
